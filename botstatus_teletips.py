@@ -40,7 +40,7 @@ async def main_teletips():
                             xxx_teletips += f"\n\n🤖  @{bot}\n        └ **Down** ❌"
                             for bot_admin_id in BOT_ADMIN_IDS:
                                 try:
-                                    await app.send_message(int(-1001552906348), f"🚨 **Beep! Beep!! @{bot} is down** ❌")
+                                    await app.send_message(int(-1001552906348), f"🚨 **Beep! Beep!! @{bot} is down**\n@EVERYONExKSKOP @It_was_abhi ❌")
                                 except Exception:
                                     pass
                             await app.read_chat_history(bot)
